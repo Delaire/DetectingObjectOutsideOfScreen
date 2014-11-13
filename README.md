@@ -9,47 +9,42 @@ I mainly use this to see if an object is outside of the screen for the user and 
 
 If you don't want to have to look at the code here is the important part, these two methodes IsObjectHidden and IntersectsWith.
 
-## Documentation
+## IsObjectHidden
 
-    Install-Package Facebook.Client -pre
+    //the object of this methode is to create 2 rectangles, from our two objects and see they intersect or not
+    protected bool IsObjectHidden(FrameworkElement child, FrameworkElement scrollViewer, int Offset)
+    {
+    	//Getting the information related to the scrollViewer
+    	GeneralTransform childTransform = child.TransformToVisual(scrollViewer);
+    	//creating out first rectangle using the object that i wish to ttrack
+    	Rect childRectangle = childTransform.TransformBounds(new Rect(new Point(0, 0), child.RenderSize));
+    	//creating out second rectangle  using the scrollViewer
+    	Rect ownerRectangle = new Rect(new Point(0, 0), scrollViewer.RenderSize);
+    	//Testing
+    	bool isInterset = IntersectsWith(childRectangle, ownerRectangle, Offset);
+    	return !isInterset;
+    }
+     
+## IsObjectHidden    
 
-*Binaries for Facebook C# SDK for Windows & Windows Phone are only distributed via nuget. For those using older versions of Visual Studio that does not support NuGet Package Manager, please download the [command line version of NuGet.exe](http://nuget.codeplex.com/releases/view/58939) and run the following
-command.*
+    //the object of this methode is to create 2 rectangles, from our two objects and see they intersect or not
+    public static bool IntersectsWith(Rect rect, Rect other, int offset)
+    {
+    	// Test for separating axis on the two rectangles
+    	if (other.Bottom < rect.Top || other.Right < rect.Left
+    	|| other.Top > rect.Bottom || other.Left > (rect.Right - offset))
+    	{
+    		return false;
+    	}
+    	return true;
+    }
 
-    nuget install Facebook.Client -pre
-    
-If you would like to get an older version of the the binaries please use the following command.
+## Supported Platforms
+* Windows Store
 
-    nuget install Facebook.Client -v 0.1.1
-    
-//the object of this methode is to create 2 rectangles, from our two objects and see they intersect or not
-protected bool IsObjectHidden(FrameworkElement child, FrameworkElement scrollViewer, int Offset)
-{
-   //Getting the information related to the scrollViewer
-	GeneralTransform childTransform = child.TransformToVisual(scrollViewer);
-	//creating out first rectangle using the object that i wish to ttrack
-	Rect childRectangle = childTransform.TransformBounds(new Rect(new Point(0, 0), child.RenderSize));
-	//creating out second rectangle  using the scrollViewer
-	Rect ownerRectangle = new Rect(new Point(0, 0), scrollViewer.RenderSize);
-	//Testing
-	bool isInterset = IntersectsWith(childRectangle, ownerRectangle, Offset);
-	return !isInterset;
-}
+## Contribute	
+Please help out
 
-## Documentation
-public static bool IntersectsWith(Rect rect, Rect other, int offset)
-{
-	// Test for separating axis on the two rectangles
-	if (other.Bottom < rect.Top || other.Right < rect.Left
-	 || other.Top > rect.Bottom || other.Left > (rect.Right - offset))
-	{
-		return false;
-	}
-	return true;
-}
-
-		
-
-License
+##License
 
 This project is licensed under the MIT license.
