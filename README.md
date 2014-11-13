@@ -33,6 +33,7 @@ public static bool IntersectsWith(Rect rect, Rect other, int offset)
 	}
 	return true;
 }
+
 		
 
 License
