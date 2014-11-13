@@ -10,6 +10,18 @@ I mainly use this to see if an object is outside of the screen for the user and 
 If you don't want to have to look at the code here is the important part, these two methodes IsObjectHidden and IntersectsWith.
 
 ## Documentation
+
+    Install-Package Facebook.Client -pre
+
+*Binaries for Facebook C# SDK for Windows & Windows Phone are only distributed via nuget. For those using older versions of Visual Studio that does not support NuGet Package Manager, please download the [command line version of NuGet.exe](http://nuget.codeplex.com/releases/view/58939) and run the following
+command.*
+
+    nuget install Facebook.Client -pre
+    
+If you would like to get an older version of the the binaries please use the following command.
+
+    nuget install Facebook.Client -v 0.1.1
+    
 //the object of this methode is to create 2 rectangles, from our two objects and see they intersect or not
 protected bool IsObjectHidden(FrameworkElement child, FrameworkElement scrollViewer, int Offset)
 {
