@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>D1CXRD12</Machine>
+    <WindowsUser>d.delaire</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>5ca73909-94e8-4974-92db-d5a7ef9bbd09</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\d.delaire\Documents\GitHub\Tutorials\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>E3DCF5CCD86AA4EE8F0F6763CF4F8189F08CFD9DC03788F81C9C50D5C739EDE9</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>5ca73909-94e8-4974-92db-d5a7ef9bbd09_1.0.0.0_neutral__c8gqk74rtvd9j</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>5ca73909-94e8-4974-92db-d5a7ef9bbd09_c8gqk74rtvd9j!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>5ca73909-94e8-4974-92db-d5a7ef9bbd09</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=d.delaire</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\d.delaire\Documents\GitHub\Tutorials\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-13T17:31:44.586</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\d.delaire\Documents\GitHub\Tutorials\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\bin\Debug\DetectingObjectOutsideOfScreen.exe">
+      <PackagePath>DetectingObjectOutsideOfScreen.exe</PackagePath>
+      <Modified>2014-11-13T17:35:55.356</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\d.delaire\Documents\GitHub\Tutorials\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\d.delaire\Documents\GitHub\Tutorials\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\d.delaire\Documents\GitHub\Tutorials\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\d.delaire\Documents\GitHub\Tutorials\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\d.delaire\Documents\GitHub\Tutorials\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-11-13T17:31:44.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\d.delaire\Documents\GitHub\Tutorials\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-11-13T17:35:55.173</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\d.delaire\Documents\GitHub\Tutorials\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\bin\Debug\DetectingObjectOutsideOfScreen.xr.xml">
+      <PackagePath>DetectingObjectOutsideOfScreen.xr.xml</PackagePath>
+      <Modified>2014-11-13T17:35:55.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\d.delaire\Documents\GitHub\Tutorials\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\DetectingObjectOutsideOfScreen\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-13T17:31:44.414</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
