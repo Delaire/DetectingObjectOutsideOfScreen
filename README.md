@@ -39,6 +39,7 @@ If you don't want to have to look at the code here is the important part, these 
     	return true;
     }
 
+I have only tested this on Windows Store apps
 ## Supported Platforms
 * Windows Store
 
