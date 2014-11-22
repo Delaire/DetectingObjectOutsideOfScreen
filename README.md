@@ -9,7 +9,7 @@ I mainly use this to see if an object is outside of the screen for the user and 
 
 If you don't want to have to look at the code here is the important part, these two methodes IsObjectHidden and IntersectsWith.
 
-## IsObjectHidden
+## IsObjectHidden Methode
 
     //the object of this methode is to create 2 rectangles, from our two objects and see they intersect or not
     protected bool IsObjectHidden(FrameworkElement child, FrameworkElement scrollViewer, int Offset)
@@ -25,7 +25,7 @@ If you don't want to have to look at the code here is the important part, these 
     	return !isInterset;
     }
      
-## IsObjectHidden    
+## IsObjectHidden 
 
     //the object of this methode is to create 2 rectangles, from our two objects and see they intersect or not
     public static bool IntersectsWith(Rect rect, Rect other, int offset)
