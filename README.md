@@ -1,4 +1,4 @@
-Detecting if an object is outside of the screen for Windows Store Apps (C#/XAML)
+Detecting if an object is outside of the screen for Windows (8/8.1) Store Apps (C#/XAML)
 =========================
 
 
